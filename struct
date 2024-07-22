@@ -1,0 +1,14 @@
+qa_project/
+├── main.py
+├── config.py
+├── database.py
+├── embedding.py
+├── vector_store.py
+├── prompt_template.py
+├── query_validation.py
+├── feedback.py
+├── async_chain.py
+├── retriever.py
+├── ui.py
+├── requirements.txt
+└── .env

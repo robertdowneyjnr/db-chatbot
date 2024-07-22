@@ -1,0 +1,8 @@
+python-dotenv
+sqlalchemy
+pymysql
+qdrant-client
+sentence-transformers
+google-generativeai
+langchain
+sqlparse
