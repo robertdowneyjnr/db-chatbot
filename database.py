@@ -1,5 +1,3 @@
-from sqlalchemy import create_engine
-# from langchain.utilities import SQLDatabase
 from langchain_community.utilities import SQLDatabase
 from config import load_config
 
