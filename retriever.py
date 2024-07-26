@@ -8,6 +8,7 @@ from typing import List, Any
 from pydantic import Field
 
 
+# retriever with word embeddings
 class SemanticSQLDatabaseRetriever(BaseRetriever):
     database: Any = Field(default=None)
     embeddings: OpenAIEmbeddings = Field(default=None)
