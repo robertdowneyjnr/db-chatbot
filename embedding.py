@@ -1,3 +1,4 @@
+# embeddings.py
 from functools import lru_cache
 from langchain_community.embeddings import HuggingFaceEmbeddings
 

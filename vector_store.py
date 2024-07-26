@@ -1,3 +1,4 @@
+# vector_store.py
 from embedding import embeddings
 from few_shots import few_shots
 from langchain_community.vectorstores import Chroma

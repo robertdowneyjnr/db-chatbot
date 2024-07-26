@@ -1,3 +1,4 @@
+# config.py
 import os
 import logging
 from dotenv import load_dotenv
@@ -15,4 +16,7 @@ def load_config():
         'db_password': os.getenv('DB_PASSWORD'),
         'db_host': os.getenv('DB_HOST'),
         'db_name': os.getenv('DB_NAME'),
+        'redis_host': os.getenv('REDIS_HOST'),
+        'redis_port': os.getenv('REDIS_PORT'),
+        'redis_password': os.getenv('REDIS_PASSWORD'),
     }
